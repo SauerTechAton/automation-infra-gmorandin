@@ -19,3 +19,6 @@ services:
 
 volumes:
   evolution_data:
+evo_network:
+    name: evo_network
+    driver: bridge
